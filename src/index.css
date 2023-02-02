@@ -1,13 +1,141 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 780px;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.header__link:not(:first-child) {
+  margin-left: 95px;
+}
+
+.header__link:hover{
+  color: rgb(244, 244, 132);
+}
+
+.header__logo {
+  font-size: 30px;
+  color: rgb(255, 255, 0);
+}
+
+.header {
+  padding: 10px 0;
+  background: black;
+  border: 3px solid rgb(234, 237, 9);
+}
+
+.header__link {
+  color: white;
+  font-size: 22px;
+}
+
+
+/* people */
+
+.people__info {
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  padding-bottom: 5px;
+}
+
+.people_cards {
+  padding: 10px 0;
+  background-color: rgb(255, 240, 157);
+  margin-top: 5px;
+
+}
+
+.people__name {
+  font-size: 22px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  color: rgb(209, 73, 0);
+  padding-bottom: 8px;
+}
+
+
+
+/* Planets */
+
+.planets_cards {
+  background-color: rgba(164, 194, 135, 0.807);
+}
+
+.planets{
+  margin-top: 5px;
+  padding: 10px 0;
+}
+
+.planets__name{
+  font-size: 22px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  color: rgb(40, 70, 11);
+  padding-bottom: 8px;
+}
+
+.planets__info {
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  padding-bottom: 5px;
+}
+
+
+/* films */
+
+.film_cards {
+  background-color: rgba(0, 0, 0, 0.34);
+}
+
+.film{
+  margin-top: 5px;
+  padding: 10px 0;
+}
+
+.film__name{
+  font-size: 22px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  color: rgb(87, 14, 14);
+  padding-bottom: 8px;
+}
+
+.film__info {
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  padding-bottom: 5px;
+}
+
+.img{
+  width: 100%;
+
+}
+
+
+/* home */
+
+.home_img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.home{
+  background-color: black;
 }
